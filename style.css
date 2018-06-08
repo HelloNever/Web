@@ -1,0 +1,37 @@
+  a {
+    color:gray;
+    text-decoration: none;
+  }
+  h1 {
+    padding: 20px;
+    border-bottom: 2px solid red;
+    font-size:65px;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0;
+  }
+  ol {
+    font-size: 25px;
+    border-right: 1px solid red;
+    width: 100px;
+    margin: 0;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol {
+    padding-left: 33px;
+    padding-top: 25px;
+  }
+  /*
+  @media (max-width: 800px) {
+    #grid {
+      display: block;
+    }
+    #grid ol {
+      border-right: none;
+    }
+  }
+  */
